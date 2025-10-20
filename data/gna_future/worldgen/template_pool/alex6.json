@@ -1,0 +1,15 @@
+{
+  "name": "gna_future:alex6",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "gna_future:alex6",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

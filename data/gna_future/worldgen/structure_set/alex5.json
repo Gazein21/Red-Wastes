@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "gna_future:alex5",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 0,
+    "spread": 1,
+    "count": 1,
+    "preferred_biomes": "gna_future:gna_void_b",
+    "salt": 0,
+    "frequency_reduction_method": "legacy_type_1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:stick"
+  ],
+  "pattern": [
+    "//",
+    "//"
+  ],
+  "key": {
+    "/": [
+      "stick"
+    ]
+  },
+  "result": {
+    "id": "minecraft:oak_planks"
+  },
+  "show_notification": true
+}

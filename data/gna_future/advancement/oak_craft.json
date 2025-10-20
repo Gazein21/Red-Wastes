@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_planks"
+    },
+    "title": {
+      "text": "New craft with a stick",
+      "color": "#c01111",
+      "bold": true
+    },
+    "description": {
+      "text": "Craft a stick into oak planks"
+    },
+    "background": "minecraft:textures/block/bamboo_mosaic.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "craft_stick_to_oak": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gna_future:stick_to_oak"
+      }
+    }
+  },
+  "requirements": [
+    ["craft_stick_to_oak"]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:the_end",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "gna_future:gna_void_b",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:structure_void",
+          "height": 1
+        }
+      ]
+    }
+  }
+}

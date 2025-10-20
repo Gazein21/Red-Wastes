@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "Go to new aventure by Gazein",
+    "color": "#00ffe1"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Once launched, you will need to collect everything that will help you survive a crash. (run away from the monster)"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Une fois lancé vous devrez récupérer tout ce qui vous permettra de survivre à un crash. (fuyez le monstre)"
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:end_rod"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Please download the recommended shaders",
+        "color": "#00ff55",
+        "click_event": {
+          "action": "open_url",
+          "url": "https://cdn.modrinth.com/data/EpQFjzrQ/versions/idWbCGE2/Solas%20Shader%20V3.0.zip"
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Go to my YT channel : @gazein",
+        "color": "#e00000",
+        "italic": true,
+        "click_event": {
+          "action": "open_url",
+          "url": "https://www.youtube.com/@gazein.?sub_confirmation=1"
+        }
+      }
+    }
+  ],
+  "can_close_with_escape": false,
+  "pause": true,
+  "yes": {
+    "label": {
+      "text": "Go to spaceship",
+      "underlined": true
+    },
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger tp_to_spaceship set 1"
+    }
+  },
+  "no": {
+    "label": {
+      "text": "No play / leave datapack",
+      "color": "#f50000",
+      "italic": true
+    },
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "trigger tp_to_spaceship set 2"
+    }
+  }
+}

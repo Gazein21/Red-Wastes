@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "pack_format": 61,
+    "supported_formats": {
+      "min_inclusive": 57,
+      "max_inclusive": 82
+    },
+    "description": "datapack for Modjam and future by Gazein (on YT)"
+  }
+}

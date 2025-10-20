@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "gna_future:glob",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 12345678,
+    "spacing": 20,
+    "separation": 7
+  }
+}

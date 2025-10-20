@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": 12345,
+    "settings": "gna_future:gna_mars_b",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "gna_future:gna_mars_b"
+    },
+    "structures": {
+      "stronghold": {
+        "spacing": 32,
+        "separation": 8,
+        "salt": 0
+      }
+    }
+  }
+}

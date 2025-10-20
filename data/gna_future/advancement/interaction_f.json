@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"fuze_g\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [],
+  "rewards": {
+    "function": "gna_future:retour"
+  },
+  "sends_telemetry_event": true
+}
