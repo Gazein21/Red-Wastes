@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:name_tag", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:string", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:stick", "weight": 20 },
+        { "type": "minecraft:item", "name": "minecraft:raw_copper", "weight": 10 },
+        { "type": "minecraft:item", "name": "minecraft:raw_iron", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:bread", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:beef", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:gray_shulker_box", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:charcoal", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:torch", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:redstone", "weight": 5 },
+        { "type": "minecraft:item", "name": "minecraft:bone_meal", "weight": 2 },
+        { "type": "minecraft:item", "name": "minecraft:leather_helmet", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:leather_chestplate", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:leather_leggings", "weight": 4 },
+        { "type": "minecraft:item", "name": "minecraft:leather_boots", "weight": 4 }
+      ]
+    }
+  ]
+}

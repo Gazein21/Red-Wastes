@@ -1,0 +1,66 @@
+{
+  "temperature": 100,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 14960969,
+    "fog_color": 8388608,
+    "water_color": 9897165,
+    "water_fog_color": 10617082,
+    "grass_color": 12022129,
+    "foliage_color": 13207431,
+    "dry_foliage_color": 12682629
+  },
+  "creature_spawn_probability": 0.1,
+  "monster_spawn_probability": 0.2,
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:zoglin",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 5,
+        "tag": "{Attributes:[{Name:\"generic.movement_speed\",Base:0.35}],PersistenceRequired:1}"
+      },
+      {
+        "type": "minecraft:blaze",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:zoglin": {
+      "charge": 1.0,
+      "energy_budget": 0.5
+    }
+  },
+  "carvers": [],
+  "features": [
+    [],
+    [],
+    [],
+    ["gna_future:dead_bush_patch"],
+    [],
+    [],
+    ["gna_future:emerald_ore","gna_future:iron_ore"],
+    [],
+    [],
+    [],
+    []
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": ["gna_future:gna_mars_b"],
+  "step": "surface_structures",
+  "terrain_adaptation": "none",
+  "spawn_overrides": {},
+  "start_pool": "gna_future:rocher",
+  "size": 10,
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "WORLD_SURFACE",
+  "max_distance_from_center": 100,
+  "use_expansion_hack": false,
+  "liquid_settings": "ignore_waterlogging"
+}
